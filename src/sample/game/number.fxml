@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.game.NumberControll">
+   <children>
+      <Button id="1" minHeight="100.0" mnemonicParsing="false" onAction="#selOne" prefWidth="100.0" text="1">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="2" layoutX="100.0" minHeight="100.0" mnemonicParsing="false" onAction="#selTwo" prefWidth="100.0" text="2">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="3" layoutX="200.0" minHeight="100.0" mnemonicParsing="false" onAction="#selThree" prefWidth="100.0" text="3">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="4" layoutY="100.0" minHeight="100.0" mnemonicParsing="false" onAction="#selFoor" prefWidth="100.0" text="4">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="5" layoutX="100.0" layoutY="100.0" minHeight="100.0" mnemonicParsing="false" onAction="#selFive" prefWidth="100.0" text="5">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="6" layoutX="200.0" layoutY="100.0" minHeight="100.0" mnemonicParsing="false" onAction="#selSix" prefWidth="100.0" text="6">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="7" layoutY="200.0" minHeight="100.0" mnemonicParsing="false" onAction="#selSeven" prefWidth="100.0" text="7">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="8" layoutX="100.0" layoutY="200.0" minHeight="100.0" mnemonicParsing="false" onAction="#selEight" prefWidth="100.0" text="8">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="9" layoutX="200.0" layoutY="200.0" minHeight="100.0" mnemonicParsing="false" onAction="#selNine" prefWidth="100.0" text="9">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+      <Button id="0" layoutX="100.0" layoutY="300.0" minHeight="100.0" mnemonicParsing="false" onAction="#selNull" prefWidth="100.0" text="0">
+         <font>
+            <Font name="Mella Nissa" size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
